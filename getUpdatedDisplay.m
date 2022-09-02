@@ -9,4 +9,8 @@ if isMine == 1
     currentDisplay(mineCount!=0) = 1; % Reveal mine location
     disp('You Lose!')
 else
+    if adjacentMine != 0
+        currentDisplay(r,c) = 1; % Reveal only that location
+    else
+        
 
