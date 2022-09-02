@@ -6,11 +6,16 @@ function updatedDisplay = getUpdatedDisplay(r, c, currentDisplay, mineMap, mineC
 isMine = mineMap(r,c);
 adjacentMine = mineCount(r,c);
 if isMine == 1
-    currentDisplay(mineCount!=0) = 1; % Reveal mine location
+    currentDisplay(mineCount~=0) = 1; % Reveal mine location
     disp('You Lose!')
 else
-    if adjacentMine != 0
+    if adjacentMine ~= 0
         currentDisplay(r,c) = 1; % Reveal only that location
     else
-        
+        % Do something
+    end
+end
+updatedDisplay = currentDisplay;
+end
+
 
