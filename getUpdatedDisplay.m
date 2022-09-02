@@ -12,7 +12,7 @@ else
     if adjacentMine ~= 0
         currentDisplay(r,c) = 1; % Reveal only that location
     else
-        % Do something
+        % Do something to find pools of zero adjacent mine!
     end
 end
 updatedDisplay = currentDisplay;
