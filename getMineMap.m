@@ -1,9 +1,9 @@
 function mineMap = getMineMap(x,y)
 % Build a mine map of x rows and y columns, 10 mines
 % Input: number of rows, then number of columns
-% Output: mine map, 0 no mine 1 mine
+% Output: mine map, 0 means no mine 1 means with mine
 mat = zeros(x,y);
-numberOfMine = 10; % Adjust later
+numberOfMine = 10; % Adjust later according to difficulty level
 count = 0;
 while (count < numberOfMine)
     r = randi([1,x]);
