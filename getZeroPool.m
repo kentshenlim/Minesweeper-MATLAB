@@ -11,7 +11,8 @@ candidate = {[r,c]};
 while length(candidate) > 0
     item = candidate{1};
     candidate(1) = []; % Remove after use
-    xCoordinate(end) = item(1); yCoordinate(end) = item(2); % Only zero goes into candidate
+    zeroCellArray{end+1} = item; % Only adjacent zero will ever into candidate. Append to cell array.
     frag = getAdjacentFragment(mineCount, item(1), item(2));
+    
 
 end
