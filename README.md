@@ -6,6 +6,8 @@ Minesweeper GUI written to practice MATLAB. Slow project.
 - [x] getAdjacentMineCount: return a matrix, with entry showing number of adjacent mines  
 - [x] getSafeSpotNum: return number of cell to be revealed before victory  
 - [ ] getUpdatedDisplay: return a matrix, 0 means closed, 1 means flipped, responding to user's choice  
+- [ ] getZeroPool: return two vectors to know which spots to be revealed when a user pick a spot without adjacent mine  
+- [ ] getAdjacentFragment: return a fragment matrix, for checking of adjacent cells, in getAdjacentMineCount and getZeroPool  
 
 # Upcoming Features
 - [ ] Make grids with function, input number, depending on difficulty levels  
