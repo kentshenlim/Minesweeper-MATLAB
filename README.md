@@ -2,9 +2,10 @@
 Minesweeper GUI written to practice MATLAB. Slow project.  
 
 # Function stubs
-- [x] getMineMap: initiate mine locations as a matrix
-- [x] getAdjacentMineCount: return a matrix, with entry showing number of adjacent mines
-- [x] 
+- [x] getMineMap: initiate mine locations as a matrix  
+- [x] getAdjacentMineCount: return a matrix, with entry showing number of adjacent mines  
+- [x] getSafeSpotNum: return number of cell to be revealed before victory  
+- [ ] getUpdatedDisplay: return a matrix, 0 means closed, 1 means flipped, responding to user's choice  
 
 # Upcoming Features
 - [ ] Make grids with function, input number, depending on difficulty levels  
