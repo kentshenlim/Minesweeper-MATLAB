@@ -27,18 +27,8 @@ while ~isempty(candidate)
             rLow = 1;
         end
         if rHigh > s1
-            rHigh = s1;
-        end
-        if cLow == 0
-            cLow = 1;
-        end
-        if cHigh > s2
-            cHigh = s2;
-        end
-        for firstInd = rLow:rHigh
-            for secondInd = cLow:cHigh
-                candidate{end+1} = [firstInd, secondInd];
-            end
-        end
-    end % Else if the value is not 0, the coordinate will be removed without doing anything
-end
+            rHigh 
+    
+
+
+
