@@ -7,7 +7,8 @@ In expected order of execution
 - [x] getAdjacentFragment: return a fragment matrix, for checking of adjacent cells, in getAdjacentMineCount and getZeroPool  
 - [x] getAdjacentMineCount: return a matrix, with entry showing number of adjacent mines, to be displayed to player  
 - [x] getSafeSpotNum: return number of cell to be revealed before victory  
-- [x] getAllZero: return a cell aray containing the r and c of cell with no adjacent mine  
+- [x] getWinOrLose: return 1 if okay, return 0 if lose, executed every time the player make a choice  
+- [x] getAllZero: return a cell aray containing coordinates of cell with no adjacent mine  
 - [ ] getUpdatedDisplay: return a matrix, 0 means closed, 1 means flipped, responding to user's choice  
 - [ ] getZeroPool: with the r and c of all zeroes known, group adjacent ones into group, only need to compute once at the
 beginning, when zero picked, unlocked all located within the same group  
