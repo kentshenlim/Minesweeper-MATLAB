@@ -17,7 +17,12 @@ else
             coordinate = toBeRevealed{i};
             currentDisplay(coordinate(1), coordinate(2)) = 1; % Reveal all zeros in same pool
         end
+
+            
+
     end
-    updatedDisplay = currentDisplay; % Output the modified display
 end
+updatedDisplay = currentDisplay;
 end
+
+
