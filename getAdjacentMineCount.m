@@ -1,7 +1,9 @@
 function mineCount = getAdjacentMineCount(mineMap)
-% Compute a mine count map, entry showing number of adjacent mines
-% Input: mine map, e.g. matrix showing distribution of mines
-% Output: mine count map, each entry showing number of adjacent mines
+% Compute a mine count map, entry showing number of adjacent mines at
+% current position
+% Input: mine map, i.e. matrix showing distribution of mines
+% Output: mine count map, each entry showing number of adjacent mines at
+% current position
 [r, c] = size(mineMap);
 mineCount = zeros(r,c);
 for i = 1:r
