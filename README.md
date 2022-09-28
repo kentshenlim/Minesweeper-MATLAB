@@ -9,9 +9,9 @@ In expected order of execution
 - [x] getSafeSpotNum: return number of cell to be revealed before victory  
 - [x] getWinOrLose: return 1 if okay, return 0 if lose, executed every time the player make a choice  
 - [x] getAllZero: return a cell aray containing coordinates of cell with no adjacent mine  
+- [x] getZeroPool: this will return a cell array containing the [r,c] of connected zeros of selected cell   
 - [ ] getUpdatedDisplay: return a matrix, 0 means closed, 1 means flipped, responding to user's choice  
-- [ ] getZeroPool: with the r and c of all zeroes known, group adjacent ones into group, only need to compute once at the
-beginning, when zero picked, unlocked all located within the same group  
+
 
 # Upcoming Features
 - [ ] Make grids with function, input number, depending on difficulty levels  
