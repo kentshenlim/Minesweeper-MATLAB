@@ -8,7 +8,6 @@ In expected order of execution
 - [x] getAdjacentMineCount: return a matrix, with entry showing number of adjacent mines, to be displayed to player  
 - [x] getSafeSpotNum: return number of cell to be revealed before victory  
 - [x] getWinOrLose: return 1 if okay, return 0 if lose, executed every time the player make a choice  
-- [x] getAllZero: return a cell aray containing coordinates of cell with no adjacent mine  
 - [x] getZeroPool: this will return a cell array containing the [r,c] of connected zeros of selected cell   
 - [ ] getUpdatedDisplay: return a matrix, 0 means closed, 1 means flipped, responding to user's choice  
 
