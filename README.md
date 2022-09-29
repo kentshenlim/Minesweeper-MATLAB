@@ -1,9 +1,9 @@
 # Minesweeper-MATLAB
-Minesweeper GUI written to practice MATLAB. Slow project.  
+Minesweeper GUI written to practice MATLAB.  
 
-# Function stubs  
+# Function Stubs  
 In expected order of execution  
-- [x] getMineMap: initiate mine locations as a matrix at the beginning of each game  
+- [x] buildMineMap: initiate mine locations as a matrix at the beginning of each game  
 - [x] getAdjacentFragment: return a fragment matrix, for checking of adjacent cells, in getAdjacentMineCount and getZeroPool  
 - [x] getAdjacentMineCount: return a matrix, with entry showing number of adjacent mines, to be displayed to player  
 - [x] getSafeSpotNum: return number of cell to be revealed before victory  
