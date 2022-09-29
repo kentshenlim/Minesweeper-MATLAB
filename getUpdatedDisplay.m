@@ -1,11 +1,12 @@
 function updatedDisplay = getUpdatedDisplay(r, c, currentDisplay, mineMap, mineCount)
-% Decide what to reveal after the player chooses a cell
-% Input: chosen row then column number, current display, mine map and mine
-% count
+% Decide what to reveal after the player made a choice
+% Input: r = chosen row number, c = chosen column number, currentDisplay,
+% mineMap, mineCount
 % Output: if lose say so, else latest map, 0 means closed, 1 means revealed
-if getWinOrLose(mineMap, r, c) == 0
+% Format of call: getUpdatedDisplay(r, c, currentDisplay, mineMap, mineCount)
+if ~isProceed(mineMap, r, c)
     disp("You lose!")
-    updatedDisplay = ones(size(mineMap)); % Reveal out
+    updatedDisplay = ones(size(mineMap)); % Game ended, reveal all
     return; % Stop here
 else
     adjacentMine = mineCount(r, c);

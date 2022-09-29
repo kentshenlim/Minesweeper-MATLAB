@@ -1,9 +1,11 @@
 function zeroCellArray = getZeroPool(mineCount, r, c)
 % Zero here means a cell without any adjacent mines, i.e. the cell which is
-% zero in the matrix output from the function getAdjacentMineCount
-% Input: Adjacent mine count matrix, selected row then column number
+% zero in the matrix output from the function buildAdjacentMineCount
+% Input: mineCount = mine count, r = row number targeted, c = column number
+% targeted
 % Output: a cell array with row and column number of entry which is zero
 % and adjacent to targetted r, c
+% Format of call: getZeroPool(mineCount, r, c) => {[r1, c1], [r2, c2], ...}
 zeroCellArray = {};
 [s1, s2] = size(mineCount);
 isVisited = false(s1, s2); % To store visited cell
