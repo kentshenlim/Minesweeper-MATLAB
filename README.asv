@@ -14,8 +14,9 @@ In expected order of execution
 - [x] getUpdatedDisplay: return a matrix, 0 means closed, 1 means revealed, responding to user's choice, including lose  
 
 # Upcoming Changes  
+- [ ] Make a difficulty function. Three difficult, this function will pass 
 - [ ] The getSafeSpotNum could be phased out by simply writing a function that reduces an initial count by 1 after each move  
 - [ ] Make grids with function, input number, depending on difficulty levels  
-- [ ] Click events, including RC flag that disables clicking, and hover effect  
+- [ ] Click events, including RC flag  
 - [ ] Flags remaining, smiley/crying face, time  
 - [ ] Use rand and pause to set irregular time interval between revealing of mines when lose  
