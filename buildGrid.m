@@ -14,4 +14,5 @@ set(f, "Visible", "on")
 widthCanva = 0.8;
 widthPerCell = widthCanva/c; % Also equal to height per cell
 heightCanva = widthPerCell*r;
+panel = uipanel(f, "Title", "Test")
 
