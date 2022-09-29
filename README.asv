@@ -1,7 +1,7 @@
 # Minesweeper-MATLAB
 Minesweeper GUI written to practice MATLAB.  
 
-# Function Stubs  
+# Function Stubs Backend  
 In expected order of execution  
 - [x] setDifficulty: decide the r, c and number of mines to be passed to build functions  
 - [x] buildMineMap: initiate mine locations as a matrix at the beginning of each game  
@@ -13,10 +13,11 @@ In expected order of execution
 - [x] getZeroPool: this will return a cell array containing the [r,c] of connected zeros of selected cell   
 - [x] getUpdatedDisplay: return a matrix, 0 means closed, 1 means revealed, responding to user's choice, including lose  
 
+# Function Stubs Frontend
+- [ ]
 # Upcoming Changes  
-- [ ] Make a difficulty function. Three difficult, this function will pass 
 - [ ] The getSafeSpotNum could be phased out by simply writing a function that reduces an initial count by 1 after each move  
 - [ ] Make grids with function, input number, depending on difficulty levels  
-- [ ] Click events, including RC flag  
+- [ ] Click events, including RC flag that disables clicking, and hover effect  
 - [ ] Flags remaining, smiley/crying face, time  
 - [ ] Use rand and pause to set irregular time interval between revealing of mines when lose  
