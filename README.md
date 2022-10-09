@@ -10,15 +10,14 @@ In expected order of execution
 - [x] buildInitialDisplay: initiate current display at the beginning, all 0, 0 means unrevealed, 1 means revealed (USED)  
 - [x] getSafeSpotNum: return number of safe cell to be revealed before victory  
 - [x] isProceed: return true if okay, return false if lose, executed every time the player make a choice (USED)  
-- [x] getZeroPool: this will return a cell array containing the [r,c] of connected zeros of selected cell (USED)   
+- [x] getZeroPool: this will return a cell array containing the [r,c] of connected zeros of selected cell (USED)  
+- [x] getZeroPoolFirstLayer: return a cell array containing the [r,c] of layer surrounding inputed zero pool (USED)   
 - [x] getUpdatedDisplay: return a matrix, 0 means closed, 1 means revealed, responding to user's choice, including lose (USED)  
 
 # Function Stubs Frontend  
 - [ ] buildGrid: initiate grid (UNUSED)  
 
-# Upcoming Changes  
-- [ ] The getSafeSpotNum could be phased out by simply writing a function that reduces an initial count by 1 after each move  
-- [ ] Make grids with function, input number, depending on difficulty levels  
+# Upcoming Changes   
 - [ ] Click events, including RC flag that disables clicking, and hover effect  
 - [ ] Flags remaining, smiley/crying face, time  
 - [ ] Use rand and pause to set irregular time interval between revealing of mines when lose  
