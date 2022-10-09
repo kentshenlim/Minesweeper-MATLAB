@@ -4,7 +4,7 @@ Minesweeper with GUI written to practice MATLAB.
 # Function Stubs Backend  
 In expected order of execution  
 - [x] setDifficulty: decide the r, c and number of mines to be passed to build functions (USED)   
-- [x] buildMineMap: initiate mine locations as a matrix at the beginning of each game  
+- [x] buildMineMap: initiate mine locations as a matrix at the beginning of each game (USED)  
 - [x] getAdjacentFragment: return a fragment matrix, for checking of adjacent cells, in getAdjacentMineCount and getZeroPool  
 - [x] buildAdjacentMineCount: return a matrix, with entry showing number of adjacent mines, to be displayed to player  
 - [x] buildInitialDisplay: initiate current display at the beginning, all 0, 0 means unrevealed, 1 means revealed  
@@ -14,7 +14,7 @@ In expected order of execution
 - [x] getUpdatedDisplay: return a matrix, 0 means closed, 1 means revealed, responding to user's choice, including lose  
 
 # Function Stubs Frontend  
-- [ ] buildGrid: initiate grid  
+- [ ] buildGrid: initiate grid (UNUSED)  
 
 # Upcoming Changes  
 - [ ] The getSafeSpotNum could be phased out by simply writing a function that reduces an initial count by 1 after each move  
