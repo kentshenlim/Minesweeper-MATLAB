@@ -1,5 +1,6 @@
 # Minesweeper-MATLAB
 Minesweeper with GUI written to practice MATLAB.  <br/>
+<br/>
 ![GUI](./img/gui.png)  
 
 # How to Run  
