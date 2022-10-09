@@ -15,9 +15,11 @@ In expected order of execution
 - [x] getUpdatedDisplay: return a matrix, 0 means closed, 1 means revealed, responding to user's choice, including lose (USED)  
 
 # Function Stubs Frontend  
-- [ ] buildGrid: initiate grid (UNUSED)  
+- [x] execute.m: run this on MATLAB to play the game  
 
 # Upcoming Changes   
 - [ ] Click events, including RC flag that disables clicking, and hover effect  
 - [ ] Flags remaining, smiley/crying face, time  
-- [ ] Use rand and pause to set irregular time interval between revealing of mines when lose  
+
+# Image Credit  
+easy.svg, hard.svg, medium.svg: [Noun Project](https://thenounproject.com/)  
