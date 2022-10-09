@@ -3,7 +3,7 @@ Minesweeper with GUI written to practice MATLAB.
 
 # Function Stubs Backend  
 In expected order of execution  
-- [x] setDifficulty: decide the r, c and number of mines to be passed to build functions  
+- [x] setDifficulty: decide the r, c and number of mines to be passed to build functions (USED)   
 - [x] buildMineMap: initiate mine locations as a matrix at the beginning of each game  
 - [x] getAdjacentFragment: return a fragment matrix, for checking of adjacent cells, in getAdjacentMineCount and getZeroPool  
 - [x] buildAdjacentMineCount: return a matrix, with entry showing number of adjacent mines, to be displayed to player  
