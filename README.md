@@ -9,9 +9,9 @@ In expected order of execution
 - [x] buildAdjacentMineCount: return a matrix, with entry showing number of adjacent mines, to be displayed to player (USED)  
 - [x] buildInitialDisplay: initiate current display at the beginning, all 0, 0 means unrevealed, 1 means revealed (USED)  
 - [x] getSafeSpotNum: return number of safe cell to be revealed before victory  
-- [x] isProceed: return true if okay, return false if lose, executed every time the player make a choice  
-- [x] getZeroPool: this will return a cell array containing the [r,c] of connected zeros of selected cell   
-- [x] getUpdatedDisplay: return a matrix, 0 means closed, 1 means revealed, responding to user's choice, including lose  
+- [x] isProceed: return true if okay, return false if lose, executed every time the player make a choice (USED)  
+- [x] getZeroPool: this will return a cell array containing the [r,c] of connected zeros of selected cell (USED)   
+- [x] getUpdatedDisplay: return a matrix, 0 means closed, 1 means revealed, responding to user's choice, including lose (USED)  
 
 # Function Stubs Frontend  
 - [ ] buildGrid: initiate grid (UNUSED)  
