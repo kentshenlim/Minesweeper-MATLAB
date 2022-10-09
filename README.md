@@ -1,5 +1,5 @@
 # Minesweeper-MATLAB
-Minesweeper GUI written to practice MATLAB.  
+Minesweeper with GUI written to practice MATLAB.  
 
 # Function Stubs Backend  
 In expected order of execution  
