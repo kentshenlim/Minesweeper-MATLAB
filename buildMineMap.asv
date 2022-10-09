@@ -1,6 +1,6 @@
 function mineMap = buildMineMap(r, c, numberOfMine, firstR, firstC)
 % Build a mine map of r rows and c columns, 10 mines
-% firstR firstC prevent first cell chosen is mine, and no adjacent mine
+% firstR firstC prevent first cell chosen is mine
 % Input: r = number of rows, c = number of columns, number of mine, firstR
 % firstC
 % Output: mine map, 0 means no mine, 1 means with mine
@@ -16,10 +16,9 @@ while (count < numberOfMine)
     currentR = randi([1, r]);
     currentC = randi([1, c]);
     if (mat(currentR, currentC) == 0)
-        if (currentR < excludeLowR || currentR > excludeHighR || currentC < excludeLowC || currentC > excludeHighC)
-            mat(currentR, currentC) = 1;
-            count = count + 1;
-        end
+        if (currentR < excludeLowR || )
+        mat(currentR, currentC) = 1;
+        count = count + 1;
     end
 end
 mineMap = mat;
