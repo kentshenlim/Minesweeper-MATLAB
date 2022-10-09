@@ -18,6 +18,12 @@ else
         coordinate = toBeRevealed{i};
         currentDisplay(coordinate(1), coordinate(2)) = 1; % Reveal all zeroes in same pool
     end
+    [rowNum, colNum] = size(currentDisplay);
+    toBeRevealedLayer = getZeroPoolFirstLayer(toBeRevealed, rowNum, colNum);
+    for i = 1:length(toBeRevealedLayer)
+        coordinate = toBeRevealedLayer{i};
+        currentDisplay(coordinate(1), coordinate(2)) = 1; % Reveal the layer surrounding zero pool
+    end
 end
 updatedDisplay = currentDisplay; % Output the modified display
 end
